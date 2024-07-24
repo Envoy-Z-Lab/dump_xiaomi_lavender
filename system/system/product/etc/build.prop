@@ -1,0 +1,58 @@
+####################################
+# from device/xiaomi/lavender/properties/product.prop
+####################################
+# Adaptive Display
+ro.qcom.ad=1
+ro.qcom.ad.calib.data=/system/etc/calib.cfg
+ro.qcom.ad.sensortype=2
+# Camera
+persist.bokeh.switch.lux=290
+persist.flash.low.lux=390
+persist.imx376_sunny.low.lux=310
+persist.imx376_sunny.light.lux=280
+persist.imx376_ofilm.low.lux=310
+persist.imx376_ofilm.light.lux=280
+ro.eyecare.brightness.threshold=3
+ro.eyecare.brightness.level=8
+ro.hist.brightness.threshold=5
+####################################
+# from device/xiaomi/sdm660-common/properties/product.prop
+####################################
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+# Zram
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=1440
+ro.zram.periodic_wb_delay_hours=24
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+dalvik.vm.systemservercompilerfilter=speed-profile
+ro.build.characteristics=default
+ro.product.cpu.pagesize.max=4096
+ro.dalvik.vm.enable_uffd_gc=false
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.com.google.ime.theme_id=5
+ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms
+ro.setupwizard.enterprise_mode=1
+ro.setupwizard.rotation_locked=true
+setupwizard.enable_assist_gesture_training=false
+setupwizard.theme=glif_v3_light
+setupwizard.feature.day_night_mode_enabled=true
+setupwizard.feature.baseline_setupwizard_enabled=true
+setupwizard.feature.skip_button_use_mobile_data.carrier1839=true
+setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false
+setupwizard.feature.show_support_link_in_deferred_setup=false
+setupwizard.feature.show_pixel_tos=false
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
+ro.support_one_handed_mode=true
+ro.opa.eligible_device=true
+ro.carriersetup.vzw_consent_page=true
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+ro.config.ringtone=Your_new_adventure.ogg
+ro.config.notification_sound=Eureka.ogg
+ro.config.alarm_alert=Bright_morning.ogg
+# end of file
